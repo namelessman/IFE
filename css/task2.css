@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+body{
+	background-color: rgb(222,222,222);
+}
+h3,.writer,.time{
+	color: rgb(108,104,77);
+}
+.writer,.time{
+	font-size: 60%;
+}
+#header{
+	height: 60px;
+	background-color: rgb(51,51,51);
+	position: relative;
+}
+#header img{
+	margin:5px 10px;
+	height: 50px;
+	width: 125px;
+}
+#header li{
+	display: inline;
+	margin:0 5px;
+}
+#header ul{
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	list-style: none;
+	color: #fff;
+}
+#header ul a{
+	color: #fff;
+}
+
+.article,.aside{
+	margin: 30px;
+	padding: 20px;
+	background-color: #fff;
+	line-height: 2em;
+	box-shadow:1px 1px 2px 1px #848484;
+}
+.article ul li{
+	list-style: none;
+}
+.article ol{
+	margin-left: 20px;
+}
+.pic{
+	border: solid 1px gray;
+	width: 500px;
+	margin: 10px;
+	text-align: center;
+}
+.article table{
+	width: 100%;
+	border-collapse: collapse;/*设置表格的边框被合并为一个单一的边框*/
+}
+.article table th{
+	background-color: #000;
+	color: #fff;
+}
+.article table tr:last-child{
+	background-color: gray;
+}
+.aside h2{
+	display: block;
+	padding-left: 5%;
+	border-left: gray 5px solid;
+}
+form{
+	line-height: 2.5em;
+}
+form label{
+	width: 50%;
+	text-align: right;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 5px;
+}
+form p{
+	margin-left: 50%;
+	color: rgb(108,104,77);
+}
+
+#submit{
+	background-color: rgb(51,85,208);
+	color:#fff;
+	font-size: 120%;
+	border: none;
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	border-radius: 10px;
+}
